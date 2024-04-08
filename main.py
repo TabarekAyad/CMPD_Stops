@@ -12,3 +12,5 @@ age_bar = alt.Chart(stops).mark_bar().encode(
     tooltip=alt.Tooltip(['Driver_Age','count()'])
 )
 st.altair_chart(age_bar)
+
+st.write('Tabarek was here!')
